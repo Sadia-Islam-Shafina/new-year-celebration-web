@@ -1,0 +1,115 @@
+
+
+body{
+    font-family: 'Merriweather', serif;
+}
+
+
+ .header-background{
+
+    background-color: aliceblue;
+     /*background-image:url('../image/Banner Image.png');    */
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('../image/Banner Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    /*C:\phero\new year celebration web\image\Banner Image.png*/
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+/*background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);   */
+
+}
+
+header{
+   /* margin: 50px 140px 140px ; */
+   margin-top: 50px;
+   margin-left: 140px;
+   margin-right: 140px;
+
+}
+
+.h-write1{
+/*padding:177px 530px  530px;   */
+padding-top: 177px;
+
+color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+gap:0px;
+}
+/*
+.h-write2{
+  
+color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900
+}
+
+.h-write3{
+    padding-bottom: 177px;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    padding-bottom: 177px;
+}
+*/
+
+.h-title{
+    
+  
+        color: #FFF;
+        text-align: center;
+        font-family: Merriweather;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        padding-bottom: 177px;
+}
+/*   65% off section style */
+
+body .off{
+    font-family: 'Inter', sans-serif;
+}
+.off{
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.title-1{
+    color: #F00;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+
+.title-2{
+    color: #070211;
+
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
