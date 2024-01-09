@@ -1,98 +1,84 @@
-
-
-body{
+body {
     font-family: 'Merriweather', serif;
 }
 
 
- .header-background{
-
-    background-color: aliceblue;
-     /*background-image:url('../image/Banner Image.png');    */
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('../image/Banner Image.png');
+.header-background {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../image/Banner Image.png');
     background-repeat: no-repeat;
     background-position: center;
-    /*C:\phero\new year celebration web\image\Banner Image.png*/
     width: 1320px;
     height: 600px;
     flex-shrink: 0;
     border-radius: 16px;
-/*background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);   */
+
 
 }
 
-header{
-   /* margin: 50px 140px 140px ; */
-   margin-top: 50px;
-   margin-left: 140px;
-   margin-right: 140px;
+header {
+    /* margin: 50px 140px 140px ; */
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
 
 }
 
-.h-write1{
-/*padding:177px 530px  530px;   */
-padding-top: 177px;
+.h-write1 {
 
-color: #FFF;
-text-align: center;
-font-family: Merriweather;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-gap:0px;
-}
-/*
-.h-write2{
-  
-color: #FFF;
-text-align: center;
-font-family: Merriweather;
-font-size: 72px;
-font-style: normal;
-font-weight: 900
+    padding-top: 177px;
+    margin-bottom: 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.h-write3{
+.h-title {
+
     padding-bottom: 177px;
+    margin-top: 0px;
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
-    padding-bottom: 177px;
-}
-*/
+    line-height: 95px;
 
-.h-title{
-    
-  
-        color: #FFF;
-        text-align: center;
-        font-family: Merriweather;
-        font-size: 72px;
-        font-style: normal;
-        font-weight: 900;
-        padding-bottom: 177px;
-}
-/*   65% off section style */
 
-body .off{
+}
+
+/*   65% off section style .....................................*/
+
+body .off {
     font-family: 'Inter', sans-serif;
 }
-.off{
-    color: #F00;
 
-text-align: center;
-font-family: Inter;
-font-size: 88px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.off {
+
+    /*    
+    margin: 0; */
+    margin-top: 50px;
+    text-align: center;
+    font-family: Inter;
 }
 
-.title-1{
+.title {
+    color: #F00;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    /*font-weight: 700;  */
+    line-height: normal;
+    margin: 0;
+}
+
+.title-1 {
     color: #F00;
 
     text-align: center;
@@ -100,16 +86,86 @@ line-height: normal;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal; 
+    line-height: normal;
+    margin: 0;
 }
 
-.title-2{
+.title-2 {
     color: #070211;
 
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
 }
+
+/*.............third-part ...........................*/
+.third-part {
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../image/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+
+    display: flex;
+}
+
+.third-part .title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+
+    padding-top: 126px;
+    padding-left: 126px;
+    text-align: left;
+}
+
+.third-part .description {
+
+    padding-left: 126px;
+    text-align: left;
+
+
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.third-part .btn-pramary {
+    /* padding-left: 126px; */
+    border-radius: 5px;
+    background-color: #c08e6a;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px;
+    margin-left: 126px;
+}
+
+.third-part .third-font-image {
+    margin-left: 150px;
+    margin-top: 70px;
+
+    width: 319.83px;
+    height: 464.662px;
+
+}
+
+/*   fourth-part work .................................................... */
