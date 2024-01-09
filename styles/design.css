@@ -199,6 +199,9 @@ body .off {
     line-height: 56px;
     text-transform: capitalize;
 }
+.text-colr{
+    color: #F00;
+}
 
 .fourth-part .btn-two {
 
@@ -431,7 +434,7 @@ body .off {
     left:50%;
     transform: translate(-50%, -50%); */
 
-    padding-left: 500px;
+    padding-left: 400px;
     width: 500px;
 }
 
@@ -456,7 +459,7 @@ input[type="text"] {
 
 }
 
-input [type="submit"] {
+ .input-field  input [type="submit"]{
     /* position: relative; */
 
 
@@ -466,7 +469,7 @@ input [type="submit"] {
     outline: none;
     border-radius: 0px 25px 25px 0px;
     cursor: pointer;
-    background-color: coral;
+    background: coral;
 }
 
 /* .......................footer work....................... */
@@ -523,11 +526,14 @@ padding-inline: 0px;
 .ftr-fst-part{
     display:flex;
     gap:550px;
+    padding-left: 140px;
 }
 
 .footer-middle-part{
     display: inline;
     padding-left: 600px;
+    padding-top: 50px;
+    margin-top: 60px;
 }
 
 
@@ -541,5 +547,45 @@ font-weight: 500;
 line-height: normal;
 
 padding-inline: 50px;
+column-gap: 550px;
+}
+
+
+
+
+/* ....................for extra ......................................... */
+
+/* .bonus mark{
+    width: 1320px;
+    height: 482px;
+    margin-top: 50px;
+    margin-left:  140px;
+
 
 }
+.bonas-text{
+    text-align: center;
+    
+}
+.bonas-text  #extra-title1{
+    color: #070211;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+padding-left: 300px;
+}
+.bonas-text  #extra-title2{
+    
+color: #F00;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+} */
